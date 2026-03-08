@@ -9,7 +9,62 @@ document.addEventListener('DOMContentLoaded', async () => {
         strings = data.strings;
     } catch (error) {
         console.error("Failed to fetch from backend:", error);
-        strings = ["Error connecting to orchestration API.", "Retrying connection..."];
+        strings = [
+    "Automating Everything",
+    "Change Domains? Automate pipelines? Can do Everything",
+    "Orchestrating production environments",
+    "Deploying global edge functions",
+    "Syncing remote backend dependencies",
+    "Injecting secure environment variables",
+    "Optimizing static asset delivery",
+    "Establishing high-speed CI/CD tunnels",
+    "Provisioning cloud-native resources",
+    "Scaling serverless architecture",
+    "Routing traffic through global CDN",
+    "Hardening API security protocols",
+    "Bridging frontend and backend logic",
+    "Executing zero-downtime deployments",
+    "Parsing GitHub repository structures",
+    "Configuring automated SSL certificates",
+    "Initializing containerized workflows",
+    "Mapping remote API endpoints",
+    "Watching for real-time repository changes",
+    "Triggering webhooks for instant updates",
+    "Minifying production-ready bundles",
+    "Compiling source code for the edge",
+    "Verifying deployment integrity",
+    "Linking domain names to IP clusters",
+    "Streaming live deployment telemetry",
+    "Generating dynamic preview URLs",
+    "Cleaning up legacy build artifacts",
+    "Caching build layers for speed",
+    "Resolving package dependency trees",
+    "Standardizing cross-platform builds",
+    "Scaling instances in milliseconds",
+    "Migrating databases to production",
+    "Securing sensitive API gateways",
+    "Monitoring system health and status",
+    "Analyzing bundle size optimization",
+    "Automating multi-cloud sync",
+    "Deploying React apps with one click",
+    "Wiring up Python backend logic",
+    "Connecting Next.js to FastAPI",
+    "Configuring Vercel orchestration",
+    "Managing environment secret keys",
+    "Validating project configurations",
+    "Polling for successful build status",
+    "Rewriting URL routing rules",
+    "Handling complex monorepo builds",
+    "Optimizing server-side rendering",
+    "Deploying static sites to the cloud",
+    "Scanning for vulnerabilities",
+    "Upgrading outdated build scripts",
+    "Building your vision in seconds",
+    "Shipping code while you sleep",
+    "Your deployment simplified",
+    "Seamless API integration active",
+    "Global scale infrastructure ready"
+]
     }
 
     // Animation Logic
@@ -34,3 +89,4 @@ document.addEventListener('DOMContentLoaded', async () => {
         }, 3500); // Rotate to the next string every 3.5 seconds
     }
 });
+
